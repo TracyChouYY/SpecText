@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/TracyChouYY/SpecText.git", :tag => "1.0.1" }
 
 
-  s.source_files  = "PodSepcText/*.{h,m}"
+  s.source_files  = "PodSepcText/PodSepcText/*.{h,m}"
 
 s.platform     = :ios, '8.0'
 s.requires_arc = true
