@@ -1,8 +1,11 @@
+
+
 Pod::Spec.new do |s|
 
-  s.name         = "SpecText"
-  s.version      = "1.0.1"
+  s.name         = "PodSepcText"
+  s.version      = "1.0"
   s.summary      = "TextTracy."
+
 
   s.description  = <<-DESC
 
@@ -13,10 +16,11 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/TracyChouYY"
 
   s.license      = "MIT"
+    s.author             = { "TracyChouYY" => "zhouyuan_yyl@126.com" }
 
-  s.author             = { "minfozy" => "zhouyuan_yyl@126.com" }
 
-  s.source       = { :git => "https://github.com/TracyChouYY/SpecText.git", :tag => "1.0.1" }
+  s.source       = { :git => "https://github.com/TracyChouYY/SpecText.git", :tag => "1.0" }
+
 
 
   s.source_files  = "PodSepcText/PodSepcText/*.{h,m}"
@@ -24,9 +28,7 @@ Pod::Spec.new do |s|
 s.platform     = :ios, '8.0'
 s.requires_arc = true
 
-  s.frameworks ='Foundation', 'CoreGraphics', 'UIKit'
-
-#s.exclude_files = "Classes/Exclude"
+# s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
