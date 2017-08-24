@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "PodSepcText"
-  s.version      = "1.0"
+  s.version      = "v1.0"
   s.summary      = "TextTracy."
 
 
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
     s.author             = { "TracyChouYY" => "zhouyuan_yyl@126.com" }
 
 
-  s.source       = { :git => "https://github.com/TracyChouYY/SpecText.git", :tag => "1.0" }
+  s.source       = { :git => "https://github.com/TracyChouYY/SpecText.git", :tag => "v1.0" }
 
 
 
